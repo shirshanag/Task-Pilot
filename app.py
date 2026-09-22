@@ -61,7 +61,7 @@ def  get_agent():
     )
     return agent
 agent=get_agent()
-st.subheader("Task AI")
+st.subheader("Task Pilot-")
 
 prompt=st.chat_input("Ask me to manage your task?")
 
